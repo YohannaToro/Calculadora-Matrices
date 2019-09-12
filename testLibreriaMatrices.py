@@ -4,6 +4,12 @@ import unittest
 m1=[[(7,3),(1,2),(5,-1)],[(-2,-1),(-7,-9),(-1,0)],[(3,8),(4,3),(2,1)]]
 m2=[[(1,2),(1,2),(4,-1)],[(-2,-1),(-7,-9),(-1,0)],[(4,8),(4,3),(2,1)]]
 class TestCalculadoraMatrices(unittest.TestCase):
+    def test_caso_inversaVector(self):
+        self.assertEqual([[(-3, -2), (-4, 2)]],libreriaMatrices.inversa_matrices([[[3,2],[4,-2]]]))
+        """
+        Este test retorna un vector
+        """
+        
     def test_suma_matrices(self):
         """
         Este test retorna la suma entre un par de numeros complejos
