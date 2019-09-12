@@ -24,4 +24,4 @@ target/
 # Ignora archivo .DS_Store en Mac
 .DS_Store
 calculadora/__pycache__
-__pycache__
+__pycache__/
