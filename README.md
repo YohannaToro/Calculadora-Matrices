@@ -103,18 +103,18 @@ Descargue el repositorio lo puede realizar de dos formas descargando el .zip o u
 En caso de usar git la linea de comando para clonar el repositiorio es:
 
 ```
-git clone https://github.com/YohannaToro/CalculadoraNumComplejos.git
+git clone https://github.com/YohannaToro/Calculadora-Matrices.git
 ```
 
 Abrir terminal y dirgirse a la carpeta calculadora
 
 ```
-\CalculadoraNumComplejos\calculadora
+\Calculadora-Matrices
 ```
 Ejecute el archivo con la siguiente linea de comando
 
 ```
-python CalculadoraBasica.py
+python libreriaMatrices.py
 ```
 
 ##  Ejecutar pruebas y aplicaciòn
