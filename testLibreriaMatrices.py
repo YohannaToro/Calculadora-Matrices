@@ -86,6 +86,12 @@ class TestCalculadoraMatrices(unittest.TestCase):
         """
         result = libreriaMatrices.matriz_hermiltan([[(5,0),(4,5),(6,-16)],[(4,-5),(13,0),(7,0)],[(6,16),(7,0),(-2.1,0)]])
         self.assertEqual(result,True )
+    def test_caso_sumaVector(self):
+        self.assertEqual([[(8, -4)]],libreriaMatrices.suma_matrices([[[3,2],[4,-2]]],[[[5,-6],[7,2]]]))
+        """
+        Este test retorna un vector
+        """
+        
     def test_multiplicacion_matrices(self):
         """
         Este test retorna la multiplicacion entre un par de matrices
