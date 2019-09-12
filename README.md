@@ -5,35 +5,35 @@ Los numeros comples es la suma entre un número real y uno de tipo **imaginario*
 La librería que soportar por lo menos las siguientes operaciones de matrices con números complejos:
 Cada una de las funciones del programa recibe un par de matrices o una dependiendo de la función:
 
-*Adición de vectores complejos.
+* Adición de vectores complejos.
 
-*Inversa de vectores complejos.
+* Inversa de vectores complejos.
 
-*Multiplicación escalar de vectores complejos.
+* Multiplicación escalar de vectores complejos.
 
-*Adición de matrices complejos.
+* Adición de matrices complejos.
 
-*Inversa de matrices complejos.
+* Inversa de matrices complejos.
 
-*Multiplicación escalar de matrices complejas.
+* Multiplicación escalar de matrices complejas.
 
-*Matriz transpuesta
+* Matriz transpuesta
 
-*Matriz conjugada
+* Matriz conjugada
 
-*Matriz adjunta
+* Matriz adjunta
 
-*Función para calcular la "acción" de una matriz sobre un vector.
+* Función para calcular la "acción" de una matriz sobre un vector.
 
-*Norma de matrices
+* Norma de matrices
 
-*Distancia entrematrices
+* Distancia entrematrices
 
-*Revisar si es unitaria
+* Revisar si es unitaria
 
-*Revisar si es Hermitian
+* Revisar si es Hermitian
 
-*Producto tensor.
+* Producto tensor.
 *PARAMETROS*
 
 * m1,m2: matriz compuesta de numeros complejos (real,imaginario)	
